@@ -1,3 +1,7 @@
+Perfect 👍 Let me clean up your README so it looks professional and without the extra spacing issue. Here’s the updated version:
+
+---
+
 # Credit Card PDF Parser
 
 A web application to extract key details and transactions from credit card PDF statements using **Python (FastAPI)** for backend parsing and **React** for the frontend.
@@ -6,28 +10,29 @@ A web application to extract key details and transactions from credit card PDF s
 
 ## Features
 
-- Upload PDF credit card statements from multiple banks (ICICI, HDFC, SBI, Axis, Kotak).  
-- Automatically extract:  
-  - Issuer  
-  - Card Number (last 4 digits)  
-  - Card Variant  
-  - Statement Period  
-  - Payment Due Date  
-  - Total Amount Due  
-  - Minimum Amount Due  
-  - Transaction history (Date, Type, Description, Debit, Credit)  
-- Drag & drop support for PDFs.  
-- Clean, responsive frontend built in React.  
-- Fallback OCR using Tesseract for scanned PDFs.  
-- Sample PDFs are included in the repo for testing.
+* Upload PDF credit card statements from multiple banks (ICICI, HDFC, SBI, Axis, Kotak).
+* Automatically extract:
+
+  * Issuer
+  * Card Number (last 4 digits)
+  * Card Variant
+  * Statement Period
+  * Payment Due Date
+  * Total Amount Due
+  * Minimum Amount Due
+  * Transaction history (Date, Type, Description, Debit, Credit)
+* Drag & drop support for PDFs.
+* Clean, responsive frontend built in React.
+* Fallback OCR using Tesseract for scanned PDFs.
+* Sample PDFs are included in the repo for testing.
 
 ---
 
 ## Tech Stack
 
-- **Backend:** Python, FastAPI, pdfplumber, pdf2image, pytesseract  
-- **Frontend:** React, HTML, CSS  
-- **OCR:** Tesseract OCR (Windows)  
+* **Backend:** Python, FastAPI, pdfplumber, pdf2image, pytesseract
+* **Frontend:** React, HTML, CSS
+* **OCR:** Tesseract OCR (Windows)
 
 ---
 
@@ -40,7 +45,7 @@ A web application to extract key details and transactions from credit card PDF s
 ```bash
 git clone <repo_url>
 cd backend
-````
+```
 
 2. Create a virtual environment:
 
@@ -68,7 +73,7 @@ pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tessera
 5. Run the backend server:
 
 ```bash
-uvicorn app.main:app --reload --host 127.0.0.1 --port 8000
+python run.py
 ```
 
 ---
@@ -114,6 +119,7 @@ Credit_Card_PDF_Parser/
 │   ├── app/
 │   │   ├── main.py           # FastAPI entrypoint
 │   │   └── pdf_parser.py     # PDF parsing logic
+│   ├── run.py                # Run backend with python run.py
 │   ├── requirements.txt
 ├── frontend/
 │   ├── src/
@@ -140,14 +146,12 @@ Credit_Card_PDF_Parser/
 
 This project is **MIT Licensed**.
 
-```
-
-```
+---
 
 ## Screenshots
-  <img width="1417" height="725" alt="Screenshot 2025-10-15 181732" src="https://github.com/user-attachments/assets/b34a29f2-a052-491d-8833-e1205624e1fc" />
 
-  <img width="1421" height="728" alt="image" src="https://github.com/user-attachments/assets/e2944355-da0f-4074-9fd5-2446b6e0c114" />
+<img width="1417" height="725" alt="Screenshot 2025-10-15 181732" src="https://github.com/user-attachments/assets/b34a29f2-a052-491d-8833-e1205624e1fc" />
 
+<img width="1421" height="728" alt="image" src="https://github.com/user-attachments/assets/e2944355-da0f-4074-9fd5-2446b6e0c114" />
 
-```
+---
