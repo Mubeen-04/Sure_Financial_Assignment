@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+pdfplumber
+pytesseract
+pillow
+python-multipart
+pytest
+requests
+fastapi
+uvicorn[standard]
+pdfplumber
+pytesseract
+pillow
+python-multipart
+pytest
+requests
