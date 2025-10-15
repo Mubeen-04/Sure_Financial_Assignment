@@ -4,10 +4,10 @@ from .pdf_parser import extract_text_from_pdf, parse_credit_card
 
 app = FastAPI()
 
-# Allow your frontend to access backend
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # or restrict to your frontend URL
+    allow_origins=["*"],  
     allow_methods=["*"],
     allow_headers=["*"],
 )
