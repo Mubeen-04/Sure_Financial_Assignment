@@ -1,5 +1,3 @@
-Perfect 👍 Let me clean up your README so it looks professional and without the extra spacing issue. Here’s the updated version:
-
 ---
 
 # Credit Card PDF Parser
