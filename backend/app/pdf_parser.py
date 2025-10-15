@@ -55,7 +55,7 @@ def parse_credit_card(text: str) -> Dict[str, Any]:
         "issuer": "N/A",
         "cardNo": "N/A",
         "cardVariant": "N/A",
-        "statementPeriod": "N/A",      # <-- Added Statement Period
+        "statementPeriod": "N/A",      
         "paymentDueDate": "N/A",
         "totalAmountDue": "N/A",
         "minimumAmountDue": "N/A",
@@ -122,11 +122,11 @@ def parse_credit_card(text: str) -> Dict[str, Any]:
 
     # ----------------- Transactions (flexible) -----------------
     txn_pattern = re.compile(
-        r"(\d{2}[-/][A-Za-z]{3}[-/]\d{4})"        # Date
-        r"\s+([A-Z ]+)?"                          # Optional type (DEBIT/CREDIT)
-        r"\s+([\w\s&\-.]+?)"                      # Description
-        r"\s+([\d,]+\.\d{2}|-)"                   # First amount
-        r"(?:\s+([\d,]+\.\d{2}|-))?",             # Optional second amount
+        r"(\d{2}[-/][A-Za-z]{3}[-/]\d{4})"        
+        r"\s+([A-Z ]+)?"                          
+        r"\s+([\w\s&\-.]+?)"                      
+        r"\s+([\d,]+\.\d{2}|-)"                   
+        r"(?:\s+([\d,]+\.\d{2}|-))?",             
         re.IGNORECASE
     )
     for m in txn_pattern.finditer(text):
