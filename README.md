@@ -141,5 +141,9 @@ Credit_Card_PDF_Parser/
 This project is **MIT Licensed**.
 
 ```
+## Screenshots
+<img width="1417" height="725" alt="Screenshot 2025-10-15 181732" src="https://github.com/user-attachments/assets/b34a29f2-a052-491d-8833-e1205624e1fc" />
+
+<img width="1416" height="729" alt="Screenshot 2025-10-15 181724" src="https://github.com/user-attachments/assets/2f915254-9eef-410d-a472-d8ea7fa9c8cc" />
 
 
